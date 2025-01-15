@@ -1,0 +1,36 @@
+#id_banner_noticias {
+    background-color: #f99f4b;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+#id_precio_destacado{
+    color: green;
+}
+
+#arcoiris{
+   background-image: url(/arco.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+   text-align: center;
+}
+
+#formulario{
+    margin-top: 100px;
+}
+
+.subtitulos{
+    color: yellow;
+}
+
+
+input{
+    border: solid 2px #f99f4b;
+    border-radius: 20px;
+}
+
+ul{
+    background-color: red;
+}

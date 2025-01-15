@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resumen de Bases de Datos</title>
+    <style>
+        /* Estilos con CSS */
+        #titulo {
+            color: blue;
+            font-size: 24px;
+        }
+        .subtitulo {
+            color: green;
+            font-size: 18px;
+        }
+        .contenido {
+            font-size: 16px;
+            line-height: 1.5;
+        }
+        img {
+            width: 300px;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <!-- Título principal -->
+    <h1 id="titulo">Resumen de Conceptos de Bases de Datos</h1>
+
+    <!-- Subtítulos -->
+    <h2 class="subtitulo">¿Qué es la Normalización?</h2>
+    <p class="contenido">
+        La <strong>normalización</strong> es un proceso para organizar los datos en una base de datos, 
+        reduciendo la redundancia y mejorando la integridad. Las <u>formas normales</u> son los pasos para lograr esto.
+    </p>
+
+    <h2 class="subtitulo">Formas Normales</h2>
+    <p class="contenido">
+        Las <strong>formas normales</strong> incluyen reglas como evitar datos duplicados, 
+        asegurar que las relaciones sean funcionales y simplificar estructuras complejas.
+    </p>
+
+    <!-- Enlace -->
+    <p class="contenido">
+        Para más información, consulta este <a href="https://es.wikipedia.org/wiki/Normalizaci%C3%B3n_(base_de_datos)" target="_blank">artículo sobre normalización</a>.
+    </p>
+
+    <!-- Imagen -->
+    <img src="https://upload.wikimedia.org/wikipedia/commons/2/29/Database_Normalization_Process.png" alt="Ejemplo de normalización">
+</body>
+</html>
